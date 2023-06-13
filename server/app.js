@@ -91,20 +91,8 @@ const PORT = process.env.PORT || 5000;
 
 
 
-  const PORT = process.env.PORT || 5000;
-
-
-<<<<<<< HEAD
-
-
-
-  app.listen(PORT, function () {
-      console.log("Server started on port ${PORT}");
-    });
-
-
-=======
+  
 app.listen(PORT, function () {
     console.log("Server started on port ${PORT}");
   });
->>>>>>> e1786e963c4003226696992db85cc2037e36e22d
+
