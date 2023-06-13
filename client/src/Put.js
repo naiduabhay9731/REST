@@ -32,7 +32,7 @@ function Put() {
     inputData.append("description", desc);
     inputData.append("status1", stat);
     if (checkpatch) {
-      fetch("http://localhost:5000/tasks", {
+      fetch("https://rest-rsot.onrender.com/tasks", {
         method: "PATCH",
 
         headers: {
@@ -51,7 +51,7 @@ function Put() {
         });
     }
     if (checkput) {
-      fetch("http://localhost:5000/tasks", {
+      fetch("https://rest-rsot.onrender.com/tasks", {
         method: "PUT",
 
         headers: {

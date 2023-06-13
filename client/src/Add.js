@@ -18,7 +18,7 @@ function Add() {
     inputData.append('description', desc);
     inputData.append('status1', stat);
 
-    fetch('http://localhost:5000/tasks', {
+    fetch('https://rest-rsot.onrender.com/tasks', {
       method: 'POST',
       
       headers: {

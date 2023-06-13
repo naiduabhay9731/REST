@@ -23,7 +23,7 @@ function Delete() {
     inputData.append('title', title);
     
 
-    fetch('http://localhost:5000/tasks', {
+    fetch('https://rest-rsot.onrender.com/tasks', {
       method: 'DELETE',
      
       headers: {

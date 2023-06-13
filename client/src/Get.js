@@ -5,7 +5,7 @@ import "./Get.css";
 function Get() {
   const [data, setdata] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/tasks")
+    fetch("https://rest-rsot.onrender.com/tasks")
       .then((response) => response.json())
 
       .then((data2) => {
