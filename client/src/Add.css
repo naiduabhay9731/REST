@@ -1,0 +1,58 @@
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-field {
+  margin-bottom: 1rem;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.submit-button {
+  padding: 0.5rem 1rem;
+}
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  margin: 0;
+}
+
+.home-button {
+  background-color: #ccc;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+
+.container {
+  text-align: center;
+  margin: 20px;
+}
+
+.checkbox-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
